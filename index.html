@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trioinovations Project</title>
+    <link rel="stylesheet" href="./Dist/style.css">
+    <!-- Bootstrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="main-img">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container bg-white rounded mt-3">
+                <a class="navbar-brand" href="index.html"><img src="./Dist/img/logo-1 1.png" alt="Logo" width="100%"
+                        height="56"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">|||</span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                        <li class="nav-item active">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="about-us.html">About Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Service
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-2 mt-3">
+                                            <h6>Digital Transformation</h6>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a
+                                                    href="digital-transformation.html">Frontend</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Backend</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Mobile App
+                                                    Development
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Web Development</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Support Service</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Testings</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Cloud </a>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-2 mt-3">
+                                            <h6>Digital Marketing</h6>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a
+                                                    href="digital-marketing.html">Seo</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Socail Media
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Google Ads</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Graphics
+                                                    Designing</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Content Creation</a>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-2 mt-3"
+                                            style="border-right: 1px solid black;">
+                                            <h6>Recruitment upsurge</h6>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a
+                                                    href="recruitment-upsurge.html">Senior Middile Hiring</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Global Soucring</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Diversinty Hiring</a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">It Team On Demand
+                                                </a>
+                                            </p>
+                                            <p>
+                                                <i class="fa-solid fa-snowflake"> </i> <a href="#">Service 1</a>
+                                            </p>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-2 mt-3">
+                                            <h6>Mobile Development</h6>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nulla
+                                                adipisci consectetur ad animi corrupti, accusamus ipsa veniam architecto
+                                                excepturi eum porro pariatur mollitia iste hic quisquam laboriosam ab
+                                                beatae facilis ratione vitae! Laboriosam, excepturi provident quod
+                                                voluptas ipsum quaerat deleniti? Illum perferendis dicta cum culpa
+                                                facilis numquam consectetur recusandae!</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="career.html">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <div class="bg-green">
+                            <a href="contact-us.html"> Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container banner mt-5">
+            <div class="row">
+                <div class="col-lg-6 all-center">
+                    <div>
+                        <img src="./Dist/img/arrow.png" alt="" width="100" height="78">
+                        <h1><span>Connect with us</span> to grow your business with ease </h1>
+                        <p class="py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae eligendi deserunt
+                            soluta dolore inventore eaque, aliquam sequi nobis iste in voluptate. Eius debitis odit
+                            doloribus deserunt dolores repellat placeat quaerat.</p>
+
+                        <div class="d-flex gap-5">
+                            <div class="bg-green">
+                                <a href="#"> Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+                            </div>
+                            <p class="learn-more">
+                                <a href="#">Lear More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <img src="./Dist/img/home-page-banner-img.png" alt="" width="100%" height="100%" class="mx-auto">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- navbar -->
+    <div class=" bg-blue">
+        <p class="text-center h6 text-white py-4">*On our way to provide professional services*</p>
+    </div>
+
+    <div class="container mt-5 pt-5">
+        <div class="row">
+            <div class="col-lg-6 who-we-are">
+                <div>
+                    <div>
+                        <div class="text-green fw-bold h6">Who we are</div>
+                        <img src="./Dist/img/underline.png" alt="" width="100">
+                        <h3>Transforming your Business <br>
+                            with Digital & IT Solutions</h3>
+
+                        <p>Trioinovations excels in holistic Digital Transformation, offering cutting-edge websites,
+                            robust front-end/back-end solutions, seamless cloud integration, and innovative app
+                            development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <p>
+                    Our expertise extends to Automation, enhancing efficiency in business processes. In Digital
+                    Marketing, we navigate with precision, providing SEO mastery, compelling social media ads,
+                    captivating video creation, and striking graphics design. As a strategic partner, we propel brands
+                    to new heights. In talent acquisition, Trioinovations stands out with Recruitment Upsurge services,
+                    matching top-tier professionals to augment your workforce. We deliver transformative solutions,
+                    captivate audiences, and elevate businesses with a dedicated team committed to success in the
+                    digital era. Join us on a journey of innovation and growth.
+                </p>
+            </div>
+        </div>
+
+        <div class="row mt-5 py-5 crd">
+            <div class="col-lg-4 text-center border rounded-3 bg-light p-3" data-aos="fade-right">
+                <img src="./Dist/img/digital-transformation.png" alt="Digital Transformation" width="56" height="56"
+                    class="img-fluid">
+                <h5 class="text-center fw-bold">Digital Transformation</h5>
+                <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In tenetur beatae perspiciatis
+                    ullam corporis dicta, possimus facilis illo. Voluptates, alias.</p>
+                <a href="#" class="">Explore Now &#8669;</a>
+            </div>
+            <div class="col-lg-4 text-center border rounded-3 bg-blue p-3 " data-aos="flip-left">
+                <img src="./Dist/img/recruitment-upsurge.png" alt="Recruitment Upsurge" width="56" height="56"
+                    class="img-fluid">
+                <h5 class="text-center fw-bold text-white">Recruitment Upsurge</h5>
+                <p class="mb-2 text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In tenetur beatae
+                    perspiciatis
+                    ullam corporis dicta, possimus facilis illo. Voluptates, alias.</p>
+                <a href="#" class="text-dark">Explore Now &#8669;</a>
+            </div>
+            <div class="col-lg-4 text-center border rounded-3 bg-light p-3" data-aos="fade-left">
+                <img src="./Dist/img/digital-marketing.png" alt="Digital Marketing" width="56" height="56"
+                    class="img-fluid">
+                <h5 class="text-center fw-bold">Digital Marketing</h5>
+                <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In tenetur beatae perspiciatis
+                    ullam corporis dicta, possimus facilis illo. Voluptates, alias.</p>
+                <a href="#" class="">Explore Now &#8669;</a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="Our-core-value p-5">
+        <div class="container">
+            <h3 class="text-center">Our Core values</h3>
+            <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores repellendus,
+                dignissimos error ducimus, delectus ipsum omnis nihil beatae rerum, doloribus facere eligendi
+                voluptatibus a? Quo veniam quam temporibus illo repellat?</p>
+
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-4">
+                    <div>
+                        <h2 data-aos="fade-up" data-aos-anchor-placement="center-center">01</h2>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, omnis cumque! A nobis in
+                            neque quaerat animi eaque suscipit reprehenderit dolorem! Vel dolores quasi tempora in
+                            maxime, eligendi corrupti consequuntur?</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 borll">
+                    <div>
+                        <h2 data-aos="fade-up" data-aos-anchor-placement="center-center">02</h2>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, omnis cumque! A nobis in
+                            neque quaerat animi eaque suscipit reprehenderit dolorem! Vel dolores quasi tempora in
+                            maxime, eligendi corrupti consequuntur?</p>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 borll">
+                    <div>
+                        <h2 data-aos="fade-up" data-aos-anchor-placement="center-center">03</h2>
+                        <h4>Lorem ipsum dolor sit amet consectetur.</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, omnis cumque! A nobis in
+                            neque quaerat animi eaque suscipit reprehenderit dolorem! Vel dolores quasi tempora in
+                            maxime, eligendi corrupti consequuntur?</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5 mt-5">
+        <div class="row">
+            <div class="col-lg-4 who-we-are">
+                <div>
+                    <div>
+                        <div class="text-green fw-bold h6">Our services</div>
+                        <img src="./Dist/img/underline.png" alt="" width="100">
+                        <h3>Innovative solutions: <br> Our unparallel service offerings</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex in deleniti, eum quibusdam quas
+                            quis sit maiores nulla ducimus accusamus aliquid quaerat doloremque perspiciatis accusantium
+                            reiciendis corrupti ullam asperiores mollitia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="main-carousel row" data-flickity='{ "cellAlign": "left", "contain": true }'>
+                    <div class="carousel-cell col-lg-6">
+                        <div class="item  text-center">
+                            <div class="rounded-3 shadow">
+                                <div class="bg-bluee p-5">
+                                    <img src="./Dist/img/digital-marketing.png" alt="" width="64" height="64"
+                                        class="mx-auto">
+                                </div>
+                                <div class="bg-white rounded py-2">
+                                    <h4>Project Creation</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta quasi
+                                        ut natus fuga, deserunt molestiae optio incidunt dignissimos nobis!</p>
+                                    <p class="learn-more">
+                                        <a href="#">Lear More <span class="h4"> &#8599;</span></a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-lg-6">
+                        <div class="item  text-center">
+                            <div class="rounded-3 shadow">
+                                <div class="bg-bluee p-5">
+                                    <img src="./Dist/img/digital-marketing.png" alt="" width="64" height="64"
+                                        class="mx-auto">
+                                </div>
+                                <div class="bg-white rounded py-2">
+                                    <h4>Project Creation</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta quasi
+                                        ut natus fuga, deserunt molestiae optio incidunt dignissimos nobis!</p>
+                                    <p class="learn-more">
+                                        <a href="#">Lear More <span class="h4"> &#8599;</span></a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-lg-6">
+                        <div class="item  text-center">
+                            <div class="rounded-3 shadow">
+                                <div class="bg-bluee p-5">
+                                    <img src="./Dist/img/digital-marketing.png" alt="" width="64" height="64"
+                                        class="mx-auto">
+                                </div>
+                                <div class="bg-white rounded py-2">
+                                    <h4>Project Creation</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta quasi
+                                        ut natus fuga, deserunt molestiae optio incidunt dignissimos nobis!</p>
+                                    <p class="learn-more">
+                                        <a href="#">Lear More <span class="h4"> &#8599;</span></a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="carousel-cell col-lg-6">
+                        <div class="item  text-center">
+                            <div class="rounded-3 shadow">
+                                <div class="bg-bluee p-5">
+                                    <img src="./Dist/img/digital-marketing.png" alt="" width="64" height="64"
+                                        class="mx-auto">
+                                </div>
+                                <div class="bg-white rounded py-2">
+                                    <h4>Project Creation</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta quasi
+                                        ut natus fuga, deserunt molestiae optio incidunt dignissimos nobis!</p>
+                                    <p class="learn-more">
+                                        <a href="#">Lear More <span class="h4"> &#8599;</span></a>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-light py-5">
+        <div class="container ">
+            <div class="text-center">
+                <div class="text-green fw-bold h6">TESTIMONIALS</div>
+                <img src="./Dist/img/underline.png" alt="" width="100" style="margin-bottom: 17px;">
+                <h3>What Our Client say about us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam non tempora distinctio maiores
+                    omnis aperiam velit quae optio pariatur repellendus reiciendis, atque assumenda cum facilis tempore
+                    iste veritatis veniam odit eum exercitationem magnam corporis magni neque. Aperiam, enim deserunt
+                    accusantium inventore, dolorem nobis doloremque magni quia totam voluptatum molestias porro.</p>
+
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-4 gap-3">
+                    <div class="bg-bluee d-flex  p-2 rounded border" data-aos="fade-up-right">
+                        <img src="./Dist/img/testo-img.png" alt="" width="80" height="80" class="mx-auto">
+                        <div class="mx-auto mt-2">
+                            <h5 onclick="tab()">Olivia Stewart</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+                    <div class="bg-bluee d-flex  p-2 rounded mt-5 border" data-aos="fade-up-right">
+                        <img src="./Dist/img/testo-img.png" alt="" width="80" height="80" class="mx-auto">
+                        <div class="mx-auto mt-2">
+                            <h5>Olivia Stewart</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+                    <div class="bg-bluee d-flex  p-2 rounded mt-5 border" data-aos="fade-up-right">
+                        <img src="./Dist/img/testo-img.png" alt="" width="80" height="80" class="mx-auto">
+                        <div class="mx-auto mt-2">
+                            <h5>Olivia Stewart</h5>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-6 mx-auto all-center mt-5 " id="none" data-aos="zoom-in-up">
+                    <div class="border bg-bluee p-5 rounded-3 shadow">
+                        <p class="flot"><i class="fa-solid fa-star p-3 h1"></i></p>
+                        <p><i class="fa-solid fa-star h5 text-green"></i><i
+                                class="fa-solid fa-star h5 text-green"></i><i
+                                class="fa-solid fa-star h5 text-green"></i><i
+                                class="fa-solid fa-star h5 text-green"></i><i
+                                class="fa-solid fa-star h5 text-green"></i></p>
+                        <h3>It was a great experience</h3>
+
+
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non numquam necessitatibus
+                            reiciendis amet earum maiores dolores perspiciatis. Consectetur sed qui est fugit rem totam,
+                            ut eum eius molestiae culpa eveniet, quos ad illum suscipit vero minus esse repellat.
+                            Doloribus vero a veniam distinctio blanditiis, voluptate dignissimos dolor rerum dolorem
+                            velit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact all-centers py-5">
+        <div class="container">
+            <h2 class="text-white text-center">Don’t hesitate to contact us for</h2>
+            <h2 class="text-white text-center">better information & services</h2>
+            <p class="text-center text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam cum ut
+                non a consequatur ducimus fugit consequuntur dolores, nobis autem. Amet accusamus maiores, doloribus
+                minima voluptas, rerum dolor consectetur laudantium quia temporibus optio ea itaque id totam
+                voluptatibus provident architecto.</p>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row shadow rounded-3  main-up">
+            <div class="col-lg-6 p-5  dark-blue-bg text-white" data-aos="fade-right">
+                <div>
+                    <h2 class="fw-bold">Contact information</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum unde ex enim architecto
+                        repudiandae
+                        nemo delectus culpa? Doloribus, impedit deserunt?</p>
+                </div>
+
+                <div class="mt-5 py-5">
+                    <p>
+                        <a href="#" class="text-white h6"> &nbsp; &nbsp; <i class="fa-solid fa-envelope "></i>
+                            ABC@gmail.com</a>
+
+                    </p>
+                    <p>
+                        <a href="#" class="text-white h6"> &nbsp; &nbsp; <i class="fa-solid fa-phone"></i>
+                            +1-800-980002</a>
+                    </p>
+
+                </div>
+
+                <div class="mt-5">
+                    <p>Also available on:</p>
+                    <div class="d-flex gap-2">
+                        <i class="fa-brands fa-x-twitter h5 bg-white p-2 rounded-pill text-dark"></i>
+                        <i class="fa-brands fa-linkedin h5 bg-white p-2 rounded-pill text-dark"></i>
+                        <i class="fa-brands fa-facebook h5 bg-white p-2 rounded-pill text-dark "></i>
+                        <i class="fa-brands fa-instagram h5 bg-white p-2 rounded-pill text-dark "></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 p-5 bg-white" data-aos="fade-left">
+                <div class="text-green fw-bold h6">Contact Us</div>
+                <img src="./Dist/img/underline.png" alt="" width="100" style="margin-bottom: 17px;">
+
+                <h2>Get in touch with us!</h2>
+                <p>Need some help? Get in touch with us by filling the form below or you can even call at the number
+                    provided. We would be glad to hear from you.</p>
+
+                <form action="">
+                    <input type="text" name="name" id="name" placeholder="Your name here"
+                        class="w-100 py-2 px-3 rounded mt-3 border" required>
+                    <input type="email" name="email" id="email" placeholder="Your Emial id"
+                        class="w-100 py-2 px-3 rounded mt-3 border" required>
+                    <textarea name="masage" id="masage" rows="5" placeholder="Type your query here"
+                        class="w-100 py-2 px-3 rounded mt-3"></textarea>
+
+                    <button class="py-2 px-3 bg-greenn rounded-3 text-white  outline-none border "
+                        type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container mt-5 py-5">
+        <div class="text-center">
+            <div class="text-green fw-bold h6">OUR LATEST BLOG</div>
+            <img src="./Dist/img/underline.png" alt="" width="100" style="margin-bottom: 17px;">
+
+            <h2>Our Latest blogs and news</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam minus labore ex mollitia optio laboriosam
+                repudiandae reiciendis perferendis animi veniam numquam eum fugit modi maiores ea, aliquid iure dolor,
+                saepe atque fuga soluta eligendi fugiat. Eius alias laborum, labore voluptatibus quis debitis ipsam,
+                reprehenderit eaque culpa eligendi, provident animi ab ipsa cumque nihil sequi facilis. Veniam dolores
+                illo quasi ipsa.</p>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-4">
+                <div>
+                    <img src="./Dist/img/blog-img-1.png" alt="" width="100%" height="300" data-aos="zoom-in">
+                    <p class="mt-3">
+                        <span class="bg-blue d-inline px-2 py-1 text-white fw-bold rounded-3">Tech</span>
+                    </p>
+                    <div class="d-flex gap-3">
+                        <p>26-01-2023</p>
+                        <li>2 min read</li>
+                    </div>
+
+                    <h4>Digital Wallets: Revolutionizing Payments in the Digital Age!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores vero ullam asperiores. Illo ab
+                        quae vel facilis ullam ea tempora.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <img src="./Dist/img/blog-mg-2.png" alt="" width="100%" height="300" data-aos="zoom-in">
+                    <p class="mt-3">
+                        <span class="bg-blue d-inline px-2 py-1 text-white fw-bold rounded-3">Tech</span>
+                    </p>
+                    <div class="d-flex gap-3">
+                        <p>26-01-2023</p>
+                        <li>2 min read</li>
+                    </div>
+
+                    <h4>Digital Wallets: Revolutionizing Payments in the Digital Age!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores vero ullam asperiores. Illo ab
+                        quae vel facilis ullam ea tempora.</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <img src="./Dist/img/blog-img-3.png" alt="" width="100%" height="300" data-aos="zoom-in">
+                    <p class="mt-3">
+                        <span class="bg-blue d-inline px-2 py-1 text-white fw-bold rounded-3">Tech</span>
+                    </p>
+                    <div class="d-flex gap-3">
+                        <p>26-01-2023</p>
+                        <li>2 min read</li>
+                    </div>
+
+                    <h4>Digital Wallets: Revolutionizing Payments in the Digital Age!</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores vero ullam asperiores. Illo ab
+                        quae vel facilis ullam ea tempora.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="./Dist/img/logo-1 1.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus, voluptatum tempora. Officia
+                        voluptas dolores sapiente consectetur earum! Impedit ducimus autem illo sunt, eos architecto
+                        quae eum at porro aperiam voluptates.</p>
+                </div>
+
+                <div class="col-lg-4 mx-auto">
+                    <div style="display: flex; flex-wrap: wrap;">
+                        <div>
+                            <p class="fw-bold h6">Quick Links</p>
+                            <ul class="links">
+
+                                <li class="mt-2 list2">
+                                    <a href="index.html">Home</a>
+
+                                </li>
+                                <li class="mt-2 list2">
+                                    <a href="blog.html">Blog</a>
+
+                                </li>
+                                <li class="mt-2 list2">
+                                    <a href="about-us.html">About Us</a>
+
+                                </li>
+                                <li class="mt-2 list2">
+                                    <a href="contact-us.html">Contact Us</a>
+                                </li>
+                                <li class="mt-2 list2">
+                                    <a href="career.html">Career</a>
+
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="mx-5">
+                            <p class="fw-bold h6">Also on:</p>
+                            <p>
+                                <i class="fa-brands fa-x-twitter bg-blue p-1 rounded-pill text-white"></i> Twitter
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-linkedin  bg-blue p-1 rounded-pill text-white"></i> Linkedin
+                            </p>
+
+                            <p>
+                                <i class="fa-brands fa-facebook  bg-blue p-1 rounded-pill text-white"></i> Facebook
+
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-instagram  bg-blue p-1 rounded-pill text-white"></i> Instagram
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 style="font-family: 'Lemonada ';">Subscribe to our <br> <span class="text-blue">newsletter <img
+                                src="./Dist/img/Highlight-down.png" alt="" width="33" height="25"></span></h4>
+                    <form action="">
+                        <input type="email" name="Emial" id="Emial" placeholder="Enter Your Email Id"
+                            class="w-100 py-2 px-3 rounded border" required><button type="submit"
+                            class="bg-greenn border py-1 px-2 text-white fw-bold  rounded-3 mt-3">
+                            Submit
+                        </button>
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <hr>
+
+            <div style="display: flex; justify-content: space-between;">
+                <p>All rights reserved © 2023 trioinnovation</p>
+
+                <div class="d-flex gap-3 teems">
+                    <a href="#">Terms & Condition</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./Dist/script.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- <script>
+        AOS.init();
+      </script> -->
+    <script>
+        AOS.init({
+            duration: 1200,
+        })
+
+    </script>
+</body>
+
+</html>
